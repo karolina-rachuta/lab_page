@@ -1,0 +1,40 @@
+@import '../variables.scss';
+@import '../utils.scss';
+
+.navbar {
+    width: 100%;
+    padding-top: toRem(20px);
+    padding-bottom: toRem(20px);
+    padding-inline: toRem(15px);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        width: 40px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: toRem(20px);
+
+        a {
+            text-decoration: none;
+            text-transform: none;
+            color: #000;
+            padding: toRem(10px) toRem(15px);
+            cursor: pointer;
+
+            &:hover {
+                background-color: lightblue;
+                border-radius: toRem(10px);
+            }
+        }
+    }
+
+}

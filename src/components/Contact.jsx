@@ -1,12 +1,12 @@
+import React from "react";
 import Navbar from "./Navbar";
-
-function News() {
+function Contact() {
   return (
     <div className="container">
       <Navbar />
-      <h1>news</h1>
+      <h1>Contact</h1>
     </div>
   );
 }
 
-export default News;
+export default Contact;

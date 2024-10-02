@@ -1,0 +1,17 @@
+@import './reset.scss';
+@import './variables.scss';
+@import './utils.scss';
+@import './layout.scss';
+@import './components/navbar.scss';
+@import './components/footer.scss';
+
+
+.container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    background-color: #f2f2db;
+    min-height: 2000px;
+    display: flex;
+    flex-direction: column;
+}

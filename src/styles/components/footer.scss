@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    min-height: toRem(60px);
+    padding-top: toRem(20px);
+    padding-bottom: toRem(20px);
+    padding-inline: toRem(15px);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+        width: toRem(40px);
+        height: auto;
+    }
+}
