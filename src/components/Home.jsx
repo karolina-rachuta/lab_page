@@ -5,7 +5,9 @@ function Home() {
     <>
       <div className="container">
         <Navbar />
-        <h1>home</h1>
+        <div className="hero">
+          <h1>Labotory of Spectroscopy and Physics Organosilicon Compounds</h1>
+        </div>
       </div>
       <Footer />
     </>
