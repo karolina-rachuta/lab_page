@@ -3,5 +3,5 @@ html, body {
     width: 100%;
     padding-inline: toRem(16px);
     background-color: $bg-color;
-
+    z-index: 1;
 }

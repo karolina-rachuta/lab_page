@@ -3,7 +3,7 @@ import Logo from  '../assets/logo.png';
 function Navbar() {
   return (
     <div className="navbar">
-      <img className="navbar__logo" src={Logo} alt="Logo icon" />
+      <Link to="/"><img className="navbar__logo" src={Logo} alt="Logo icon" /></Link>
       <div className="navbar__box">
         <Link to="/">Home</Link>
         <Link to="/news">News</Link>

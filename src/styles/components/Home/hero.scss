@@ -6,6 +6,26 @@
     display: flex;
     justify-content: end;
     align-items: end;
+    
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     top: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     right: 0;
+    //     background: #000;
+    //     opacity: 0;
+    //     z-index: 0;
+    //     @media only screen and (max-width: toRem(650px)) {
+    //       opacity: 0.3;
+    //     }
+    //   }
+
+    // @media only screen and (max-width: toRem(650px)) {
+    //     justify-content: center;
+    //     align-items: center;
+    // }
 
     h1 {
         color: #fff;
@@ -14,5 +34,12 @@
         padding-bottom: toRem(30px);
         max-width: 80%;
         text-align: right;
+        z-index: 1;
+
+        @media only screen and (max-width: toRem(650px)) {
+            text-align: center;
+            padding-left: toRem(10px);
+            padding-right: toRem(10px);
+        }
     }
 }
