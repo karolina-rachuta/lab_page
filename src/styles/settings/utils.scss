@@ -1,5 +1,5 @@
 @use 'sass:math';
-@import './variables';
+@import './variables.scss';
 
 @function toRem($value, $base: $base-font-size) {
 

@@ -1,7 +1,44 @@
 .news {
-    background-image: url(../../../assets/background.jpg);
-    background-size: cover;
+    // background-image: url(../../../assets/background.jpg);
+    // background-size: cover;
     width: 100%;
-    min-height: toRem(100px);
-    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding: toRem(10px);
+
+    &__hdl {
+        background-color: rgb(225, 164, 41);
+        width: 100%;
+        min-height: toRem(50px);
+        font-weight: 300;
+        color: white;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: toRem(10px);
+    }
+
+    &__text-box {
+        margin-top: toRem(10px);
+        // background-color: rgb(28, 15, 133);
+        // color: rgb(249, 249, 243);
+        padding: toRem(10px) toRem(20px);
+        display: flex;
+        flex-direction: column;
+        gap: toRem(20px);
+
+        .text-box__news {
+            padding: toRem(20px) toRem(20px);
+            background-color: rgb(51, 30, 210);
+            border-radius: toRem(5px);
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            gap: toRem(10px);
+            line-height: 2;
+        }
+    }
 }
