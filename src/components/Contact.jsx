@@ -33,8 +33,7 @@ function Contact() {
                   />
                 </a>
                 <p>
-                  UAM Wydział Chemii, Uniwersytetu Poznańskiego 8, 61-614
-                  Poznań, Poland, wing A, room 2.9
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit., wing A, room X.Y
                 </p>
               </div>
             </p>
