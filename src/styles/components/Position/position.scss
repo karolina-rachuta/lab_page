@@ -4,8 +4,9 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    min-height: 800px;
+    height: 100vh;
     background-color: rgb(28, 15, 133);
+    margin: 0 auto;
 
     &__hdl {
         background-color: rgb(225, 164, 41);
@@ -21,15 +22,24 @@
     }
 
     &__box {
-        padding: toRem(200px) toRem(20px);
+        padding: toRem(300px) toRem(20px);
         color: #fff;
     }
 
     &__link {
         display: block;
+        display: flex;
+        align-items: center;
+        gap: toRem(10px);
         margin-top: toRem(20px);
         color: rgb(225, 164, 41);
+        font-weight: bold;
         text-decoration: none;
         cursor: pointer;
+    }
+
+    &__icon {
+        width: toRem(40px);
+        height: auto;
     }
 }

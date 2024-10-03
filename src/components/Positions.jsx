@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import NextLink from "../assets/next.png";
 function Positions() {
   return (
     <div className="container">
@@ -14,7 +15,7 @@ function Positions() {
             research in our lab.
           </p>
           <Link className="positions__link" to="/contact">
-            Contact for more information
+            Contact for more information <img className="positions__icon" src={NextLink} alt="Icon to be transferred" />
           </Link>
         </div>
       </div>
