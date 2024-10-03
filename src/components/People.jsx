@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 function People() {
@@ -5,6 +6,7 @@ function People() {
     <div className="container">
       <Navbar />
       <h1>people</h1>
+      <Footer/>
     </div>
   );
 }
