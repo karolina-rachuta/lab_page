@@ -7,6 +7,7 @@
 @import './components/home/hero.scss';
 @import './components/home/introduction.scss';
 @import './components/home/about.scss';
+@import './components/news/news.scss';
 
 
 .container {
@@ -14,8 +15,8 @@
     max-width: 1700px;
     margin: 0 auto;
     background-color: #f2f2db;
-    // min-height: 2000px;
     display: flex;
     flex-direction: column;
-    // z-index: 1;
+    justify-content: center;
+    align-items: center;
 }

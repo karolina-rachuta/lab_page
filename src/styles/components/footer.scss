@@ -1,10 +1,9 @@
 .footer {
     width: 100%;
-    // max-width: toRem(1600px);
     min-height: toRem(60px);
     padding-top: toRem(20px);
     padding-bottom: toRem(20px);
-    padding-inline: toRem(15px);
+    padding-inline: toRem(20px);
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -13,5 +12,34 @@
     &__logo {
         width: toRem(40px);
         height: auto;
+    }
+
+    &__text-box {
+        display: flex;
+        gap: toRem(20px);
+        font-size: toRem(13px);
+
+        @media only screen and (max-width: toRem(590px)){
+            flex-direction: column;
+            gap: toRem(10px);
+        }
+
+        .footer__text {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: toRem(5px);
+
+            .footer__img {
+                width: toRem(20px);
+                height: auto;
+
+                &:nth-child(2){
+                    cursor: pointer;
+                }
+            }
+
+        }
+
     }
 }

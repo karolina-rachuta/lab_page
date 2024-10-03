@@ -17,4 +17,12 @@
         width: toRem(180px);
         height: auto;
     }
+
+    &__hdl {
+        font-weight: 700;
+        line-height: 2;
+    }
+    &__text {
+        font-weight: 300;
+    }
 }
