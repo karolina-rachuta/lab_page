@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(28, 15, 133);
     // padding: toRem(10px);
 
     &__hdl {
@@ -36,8 +37,10 @@
             // background-color: rgb(51, 30, 210);
             // background-color: lightblue;
             // background-color: #fff;
-            background-color: rgb(235, 248, 248);
-            border: 2px solid lightblue;
+            //background-color: rgb(235, 248, 248);
+           // background-color: rgb(198, 227, 237);
+           background-color: #fff;
+            // border: 2px solid lightblue;
             border-radius: toRem(10px);
             // color: aliceblue;
             color: rgba(0, 0, 0, 0.842);
