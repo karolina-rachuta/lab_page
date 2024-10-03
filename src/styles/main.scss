@@ -5,6 +5,8 @@
 @import './components/navbar.scss';
 @import './components/footer.scss';
 @import './components/home/hero.scss';
+@import './components/home/introduction.scss';
+@import './components/home/about.scss';
 
 
 .container {
@@ -12,8 +14,8 @@
     max-width: 1700px;
     margin: 0 auto;
     background-color: #f2f2db;
-    min-height: 2000px;
+    // min-height: 2000px;
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    // z-index: 1;
 }

@@ -4,4 +4,7 @@ html, body {
     padding-inline: toRem(16px);
     background-color: $bg-color;
     z-index: 1;
+    @media only screen and (max-width: toRem(800px)){
+        padding-inline: 0;
+    }
 }

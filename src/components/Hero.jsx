@@ -1,7 +1,7 @@
 function Hero () {
     return (
         <div className="hero">
-          <h1>Laboratory of Spectroscopy and Physics Organosilicon Compounds</h1>
+          <h1>Laboratory of Spectroscopy</h1>
         </div>
     )
 }
