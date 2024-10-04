@@ -47,6 +47,18 @@
             gap: toRem(10px);
             line-height: 2;
 
+            @media only screen and (max-width: toRem(1050px)){
+                width: 40%;
+            };
+            @media only screen and (max-width: toRem(800px)){
+                width: 70%;
+            }
+            @media only screen and (max-width: toRem(600px)){
+                width: 100%;
+            }
+
+
+
             .publication__title {
                 display: flex;
                 align-items: center;
