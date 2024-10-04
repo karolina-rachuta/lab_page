@@ -12,33 +12,43 @@ function Contact() {
       <Navbar />
       <div className="contact">
         <h2 className="contact__hdl">Contact</h2>
+        <div className="contact__container">
         <div className="contact__box">
-          <div>
-            <p className="contact__name">FirstName LastName</p>
+          <p className="contact__name">FirstName LastName</p>
+          <div className="contact__row">
+            <img
+              className="contact__icon"
+              loading="lazy"
+              src={EmailIcon}
+              alt="Email icon"
+            />
+            <p className="contact__text"> xyz@amu.edu.pl</p>
+          </div>
+          <div className="contact__row">
+            <img
+              className="contact__icon"
+              loading="lazy"
+              src={PhoneIcon}
+              alt="Phone icon"
+            />
+            <p className="contact__text">829 00 0000</p>
+          </div>
+          <div className="contact__row">
+            <a href="https://maps.app.goo.gl/u3aa4uVqtLps6BHK7">
+              <img
+                loading="lazy"
+                className="contact__icon"
+                src={LocationIcon}
+                alt="Location icon"
+              />
+            </a>
             <p className="contact__text">
-              <img className="contact__icon" src={EmailIcon} alt="Email icon" />{" "}
-              xyz@amu.edu.pl
-            </p>
-            <p className="contact__text">
-              <img className="contact_icon" src={PhoneIcon} alt="Phone icon" />{" "}
-              829 00 0000
-            </p>
-            <p className="contact__text">
-              <div>
-                <a href="https://maps.app.goo.gl/u3aa4uVqtLps6BHK7">
-                  <img
-                    className="contact__icon"
-                    src={LocationIcon}
-                    alt="Location icon"
-                  />
-                </a>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit., wing A, room X.Y
-                </p>
-              </div>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit., wing A,
+              room X.Y
             </p>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </div>
