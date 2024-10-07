@@ -8,12 +8,12 @@ function News() {
       <Navbar />
       <h2 className="news__hdl">News</h2>
       <div className="news">
-        <div className="news__text-box">
+        <div className="news__box">
           {news.map(({ title, date, text }) => (
-            <div className="text-box__news">
-              <h3 className="text-box__hdl"> {title}</h3>
-              <h4 className="text-box__hdl"> {date}</h4>
-              <p className="text-box__text">{text}</p>
+            <div className="info__box">
+              <h3 className="info__hdl"> {title}</h3>
+              <h4 className="info__date"> {date}</h4>
+              <p className="info__text">{text}</p>
             </div>
           ))}
         </div>

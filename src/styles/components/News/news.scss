@@ -22,7 +22,7 @@
         padding: toRem(10px);
     }
 
-    &__text-box {
+    &__box {
         margin-top: toRem(10px);
         width: 90%;
         // background-color: rgb(28, 15, 133);
@@ -32,7 +32,7 @@
         flex-direction: column;
         gap: toRem(20px);
 
-        .text-box__news {
+        .info__box {
             padding: toRem(20px) toRem(20px);
             // background-color: rgb(51, 30, 210);
             // background-color: lightblue;
