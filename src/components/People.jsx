@@ -6,6 +6,9 @@ function People() {
     <div className="container">
       <Navbar />
       <h1>people</h1>
+      <div>
+
+      </div>
       <Footer/>
     </div>
   );

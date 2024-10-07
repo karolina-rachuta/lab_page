@@ -6,8 +6,8 @@ function News() {
   return (
     <div className="container">
       <Navbar />
+      <h2 className="news__hdl">News</h2>
       <div className="news">
-        <h2 className="news__hdl">News</h2>
         <div className="news__text-box">
           {news.map(({ title, date, text }) => (
             <div className="text-box__news">
@@ -18,7 +18,7 @@ function News() {
           ))}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
