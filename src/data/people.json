@@ -1,0 +1,25 @@
+[{
+        "name": "Dr. Alice Smith",
+        "title": "Senior Research Scientist",
+        "description": "Expert in laser spectroscopy and its applications in material science. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi a veritatis assumenda culpa unde voluptas ipsam necessitatibus consectetur possimus officia iure in eius consequuntur ea veniam numquam, temporibus iste corrupti!",
+        "image_url": "https://example.com/images/alice_smith.jpg"
+    },
+    {
+        "name": "Dr. Bob Johnson",
+        "title": "Postdoctoral Fellow",
+        "description": "Researching the effects of light-matter interactions at the nanoscale. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi a veritatis assumenda culpa unde voluptas ipsam necessitatibus consectetur possimus officia iure in eius consequuntur ea veniam numquam, temporibus iste corrupti!",
+        "image_url": "https://example.com/images/bob_johnson.jpg"
+    },
+    {
+        "name": "Dr. Clara Lee",
+        "title": "PhD Candidate",
+        "description": "Focused on photonic crystals and their role in energy transfer. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi a veritatis assumenda culpa unde voluptas ipsam necessitatibus consectetur possimus officia iure in eius consequuntur ea veniam numquam, temporibus iste corrupti!",
+        "image_url": "https://example.com/images/clara_lee.jpg"
+    },
+    {
+        "name": "Prof. David Brown",
+        "title": "Group Leader",
+        "description": "Leading projects on quantum dots and their photophysical properties. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi a veritatis assumenda culpa unde voluptas ipsam necessitatibus consectetur possimus officia iure in eius consequuntur ea veniam numquam, temporibus iste corrupti!",
+        "image_url": "https://example.com/images/david_brown.jpg"
+    }
+]

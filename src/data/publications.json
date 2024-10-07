@@ -79,14 +79,5 @@
         "volume": 154,
         "pages": "054101",
         "authors": ["Alice Hall"]
-    },
-    {
-        "title": "Advancements in Photophysical Studies of Organic Materials",
-        "short_description": "A discussion on recent advancements in the field of photophysics as applied to organic materials and devices.",
-        "year": 2023,
-        "journal_name": "Organic Electronics",
-        "volume": 105,
-        "pages": "90-97",
-        "authors": ["Brian King"]
     }
 ]
