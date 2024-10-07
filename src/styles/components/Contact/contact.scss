@@ -1,5 +1,9 @@
 .container__contact {
     height: 100vh;
+
+    @media only screen and (max-width: toRem(770px)) {
+        height: 100%;
+    }
 }
 
 .contact {

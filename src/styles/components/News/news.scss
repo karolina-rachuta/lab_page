@@ -1,13 +1,11 @@
 .news {
-    // background-image: url(../../../assets/background.jpg);
-    // background-size: cover;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(28, 15, 133); //#f2f2db
-    // padding: toRem(10px);
+    // background-color: rgb(200,200,200);
 
     &__hdl {
         background-color: rgb(225, 164, 41);
@@ -38,8 +36,8 @@
             // background-color: lightblue;
             // background-color: #fff;
             //background-color: rgb(235, 248, 248);
-           // background-color: rgb(198, 227, 237);
-           background-color: #fff;
+            // background-color: rgb(198, 227, 237);
+            background-color: #fff;
             // border: 2px solid lightblue;
             border-radius: toRem(5px);
             // color: aliceblue;
