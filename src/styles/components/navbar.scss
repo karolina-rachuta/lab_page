@@ -5,78 +5,90 @@
     padding-inline: toRem(15px);
     background-color: #fff;
     display: flex;
-    margin: 0 auto;
     justify-content: space-between;
     align-items: start;
     z-index: 1;
 
-    .navbar__logo {
-        width: 40px;
-        height: auto;
-        cursor: pointer;
+    @media only screen and (max-width: toRem(770px)) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-inline: toRem(20px);
     }
 
-    .navbar {
+    .logo__box {
         display: flex;
-        flex-direction: column;
-        width: 100%;
+        justify-content: space-between;
+        align-items: center;
 
-        .navbar__box {
-            // width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: end;
-            gap: toRem(20px);
-            order: 2;
+        @media only screen and (max-width:toRem(770px)) {
+            width: 100%;
+        }
 
-            @media only screen and (max-width: toRem(770px)) {
-                padding-top: 50px;
-                display: flex;
-                flex-direction: column;
-            }
-
-            a {
-                text-decoration: none;
-                text-transform: none;
-                color: #000;
-                padding: toRem(10px) toRem(15px);
-                cursor: pointer;
-
-                @media only screen and (max-width:toRem(770px)) {
-                    width: 50%;
-                    text-align: center;
-                    padding-bottom: 10px;
-                    border-bottom: 1px solid darkblue;
-                }
-
-                &:hover {
-                    background-color: lightblue;
-                    border-radius: toRem(10px);
-                }
-            }
+        .logo__img {
+            width: toRem(40px);
+            height: auto;
+            cursor: pointer;
         }
 
         .hamburger {
             display: none;
-            justify-content: center;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
-            gap: 5px;
-            // width: 50px;
+            gap: toRem(5px);
             order: 1;
-            align-self: flex-end;
             padding-right: toRem(10px);
             cursor: pointer;
 
-            @media only screen and (max-width:toRem(770px)) {
+            @media only screen and (max-width: toRem(770px)) {
                 display: flex;
+                justify-content: end;
             }
 
             span {
-                width: 35px;
-                height: 4px;
-                border-radius: 10px;
+                width: toRem(35px);
+                height: toRem(4px);
+                border-radius: toRem(10px);
                 background-color: #000;
+            }
+        }
+    }
+
+    .navbar__box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: toRem(20px);
+        order: 2;
+
+        @media only screen and (max-width: toRem(770px)) {
+            display: none;
+            flex-direction: column;
+            padding-top: toRem(40px);
+            padding-bottom: toRem(40px);
+        }
+        &.open {
+            display: flex;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: none;
+            color: #000;
+            padding: toRem(10px) toRem(15px);
+            cursor: pointer;
+
+            @media only screen and (max-width: toRem(770px)) {
+                width: 50%;
+                text-align: center;
+                padding-bottom: toRem(15px);
+                border-bottom: toRem(1px) solid darkblue;
+            }
+
+            &:hover {
+                background-color: lightblue;
+                border-radius: toRem(10px);
             }
         }
     }
