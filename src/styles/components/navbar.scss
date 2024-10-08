@@ -65,14 +65,16 @@
         @media only screen and (max-width: toRem(770px)) {
             display: none;
             flex-direction: column;
+            gap: toRem(5px);
             padding-top: toRem(40px);
             padding-bottom: toRem(40px);
         }
+
         &.open {
             display: flex;
         }
 
-        a {
+        .navbar__link {
             text-decoration: none;
             text-transform: none;
             color: #000;
@@ -82,11 +84,16 @@
             @media only screen and (max-width: toRem(770px)) {
                 width: 50%;
                 text-align: center;
+                padding-top: toRem(15px);
                 padding-bottom: toRem(15px);
                 border-bottom: toRem(1px) solid darkblue;
             }
 
             &:hover {
+                background-color: lightblue;
+                border-radius: toRem(10px);
+            }
+            &.current {
                 background-color: lightblue;
                 border-radius: toRem(10px);
             }

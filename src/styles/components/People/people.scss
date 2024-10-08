@@ -1,13 +1,10 @@
 .people {
-    // background-image: url(../../../assets/background.jpg);
-    // background-size: cover;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(28, 15, 133); //#f2f2db
-    // padding: toRem(10px);
 
     &__hdl {
         background-color: rgb(225, 164, 41);
@@ -32,6 +29,12 @@
         display: flex;
         flex-direction: column;
         gap: toRem(20px);
+
+        @media only screen and (max-width: toRem(770px)) {
+            width: 100%;
+            gap: toRem(10px);
+            padding: toRem(0px) toRem(10px) toRem(10px) toRem(10px);
+        }
 
         .person__row {
             padding: toRem(20px) toRem(20px);
@@ -59,7 +62,6 @@
             }
 
             .person__img {
-                // width: 30%;
                 max-width: toRem(200px);
                 height: auto;
             }

@@ -16,6 +16,10 @@
     background-color: rgb(28, 15, 133);
     margin: 0 auto;
 
+    @media only screen and (max-width: toRem(770px)) {
+        height: 100%;
+    }
+
     &__hdl {
         background-color: rgb(225, 164, 41);
         width: 100%;
@@ -32,6 +36,10 @@
     &__box {
         padding: toRem(20px);
         color: #fff;
+
+        @media only screen and (max-width: toRem(770px)) {
+            padding: toRem(200px) toRem(20px);
+        }
     }
 
     &__link {
