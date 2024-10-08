@@ -1,6 +1,8 @@
 # Lab Page
 Demo for lab group.
 
+## Live Demo
+https://lab-website-c01a7.web.app
 ## Tech Stack:
 - React js
 - Scss

@@ -22,6 +22,14 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+body::before {
+    content: url(../assets/background.webp);
+    position: absolute;
+    top: -9999rem;
+    left: -9999rem;
+    opacity: 0;
+  }
+
 .container {
     width: 100%;
     max-width: toRem(1700px);
