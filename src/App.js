@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './styles/main.scss';
 import Home from './components/Home';
 const LazyNews = React.lazy(() => import("./components/News"));
 const LazyPeople = React.lazy(() => import("./components/People"));
@@ -12,7 +13,6 @@ const LazyContact = React.lazy(() => import("./components/Contact"));
 // import Positions from './components/Positions';
 // import Contact from './components/Contact';
 
-import './styles/main.scss';
 
 function App() {
   return (
