@@ -3,7 +3,6 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import Introduction from "./Introduction";
 import About from "./About";
-
 function Home() {
   
   return (

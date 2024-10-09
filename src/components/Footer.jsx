@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo.png";
-import PhoneIcon from "../assets/tel.png";
-import EmailIcon from "../assets/email.png";
-import LocationIcon from "../assets/location.png";
+import Logo from "../assets/logo.webp";
+import PhoneIcon from "../assets/tel.webp";
+import EmailIcon from "../assets/email.webp";
+import LocationIcon from "../assets/location.webp";
 
 function Footer() {
   return (
