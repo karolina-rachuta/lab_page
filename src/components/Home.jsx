@@ -3,7 +3,10 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import Introduction from "./Introduction";
 import About from "./About";
+//const LazyAbout = React.lazy(() => import('../components/About'));
+
 function Home() {
+  
   return (
     <>
       <div className="container">

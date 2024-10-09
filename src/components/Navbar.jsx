@@ -1,6 +1,6 @@
 import { useState} from "react";
 import { Link, useLocation  } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.webp";
 
 function Navbar() {
   const location = useLocation();

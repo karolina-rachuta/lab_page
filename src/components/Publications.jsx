@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import publications from "../data/publications.json";
-import Articleicon from "../assets/article.png";
+import Articleicon from "../assets/article.webp";
 import LinkIcon from "../assets/link.png";
 
 function Publications() {
