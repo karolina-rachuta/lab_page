@@ -18,12 +18,13 @@ function News() {
               {console.log(item.fields.title)}
               <h4 className="info__date"> {item.fields.date}</h4>
               <p className="info__text">
-                {item.fields.description.content[0].content[0].value}
+                {item.fields.description.content[0].content?.map((parag) =>
+                 parag.value )}
               </p>
               {item.fields.image && (
                 <img
                   src={item.fields.image.fields.file.url}
-                  style={{ width: "100%" }}
+                  style={{ width: "100" }}
                   alt={item.fields.title}
                 />
               )}
