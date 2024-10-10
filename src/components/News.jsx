@@ -10,16 +10,15 @@ function News() {
       <Navbar />
       <h2 className="news__hdl">News</h2>
       <div className="news">
-        {console.log("news", newsList.items)}
         <div className="news__box">
-          {newsList?.items?.map((item) => (
+         {/* {newsList?.items?.map((item) => (
             <div className="info__box" key={item.sys.id}>
               <h3 className="info__hdl"> {item.fields.title}</h3>
-              {console.log(item.fields.title)}
               <h4 className="info__date"> {item.fields.date}</h4>
               <p className="info__text">
-                {item.fields.description.content[0].content?.map((parag) =>
-                 parag.value )}
+                {item.fields.description.content[0].content?.map(
+                  (parag) => parag.value
+                )}
               </p>
               {item.fields.image && (
                 <img
@@ -29,7 +28,7 @@ function News() {
                 />
               )}
             </div>
-          ))}
+          ))} */}
           {news.map(({ title, date, text }, index) => (
             <div className="info__box" key={index}>
               <h3 className="info__hdl"> {title}</h3>
