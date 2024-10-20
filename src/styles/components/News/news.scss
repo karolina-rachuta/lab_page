@@ -4,8 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(28, 15, 133); //#f2f2db
-    // background-color: rgb(200,200,200);
+    background-color: rgb(28, 15, 133);
 
     &__hdl {
         background-color: rgb(225, 164, 41);
@@ -23,8 +22,6 @@
     &__box {
         margin-top: toRem(10px);
         width: 90%;
-        // background-color: rgb(28, 15, 133);
-        // color: rgb(249, 249, 243);
         padding: toRem(10px) toRem(20px) toRem(20px) toRem(20px);
         display: flex;
         flex-direction: column;
@@ -38,15 +35,8 @@
 
         .info__box {
             padding: toRem(20px) toRem(20px);
-            // background-color: rgb(51, 30, 210);
-            // background-color: lightblue;
-            // background-color: #fff;
-            //background-color: rgb(235, 248, 248);
-            // background-color: rgb(198, 227, 237);
             background-color: #fff;
-            // border: 2px solid lightblue;
             border-radius: toRem(5px);
-            // color: aliceblue;
             color: rgba(0, 0, 0, 0.842);
             display: flex;
             flex-direction: column;

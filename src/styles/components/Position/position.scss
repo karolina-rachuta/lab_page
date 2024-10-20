@@ -1,9 +1,9 @@
 .container__positions {
     height: 100vh;
 
-    // @media only screen and (max-width: toRem(770px)) {
-    //     height: 100%;
-    // }
+    @media only screen and (max-width: toRem(770px)) {
+        height: 100%;
+    }
 }
 
 .positions {
@@ -16,9 +16,9 @@
     background-color: rgb(28, 15, 133);
 
 
-    // @media only screen and (max-width: toRem(770px)) {
-    //     height: 100%;
-    // }
+    @media only screen and (max-width: toRem(770px)) {
+        height: 100%;
+    }
 
     &__hdl {
         background-color: rgb(225, 164, 41);
@@ -40,9 +40,11 @@
         flex-direction: column;
         text-align: justify;
 
-        // @media only screen and (max-width: toRem(770px)) {
-        //     padding: toRem(200px) toRem(20px);
-        // }
+        @media only screen and (max-width: toRem(770px)) {
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     &__link {

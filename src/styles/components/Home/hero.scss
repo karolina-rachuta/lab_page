@@ -6,26 +6,6 @@
     display: flex;
     justify-content: end;
     align-items: end;
-    
-    // &::after {
-    //     content: "";
-    //     position: absolute;
-    //     top: 0;
-    //     bottom: 0;
-    //     left: 0;
-    //     right: 0;
-    //     background: #000;
-    //     opacity: 0;
-    //     z-index: 0;
-    //     @media only screen and (max-width: toRem(650px)) {
-    //       opacity: 0.3;
-    //     }
-    //   }
-
-    // @media only screen and (max-width: toRem(650px)) {
-    //     justify-content: center;
-    //     align-items: center;
-    // }
 
     h1 {
         color: #fff;
